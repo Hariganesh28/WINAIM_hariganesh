@@ -30,7 +30,7 @@ VALUES
 -- Insert employee records
 INSERT INTO employees (first_name, last_name, department_id, hire_date)
 VALUES
-    ('Magesh', 'Raj', 1, '2023-01-15'),
+    ('Magesh', 'Raj', 1, '2023-07-01'),
     ('Priya', 'Patel', 2, '2022-11-30'),
     ('Rahul', 'Sharma', 1, '2023-03-20'),
     ('Pooja', 'Srinivas', 3, '2021-08-10'),
@@ -40,7 +40,7 @@ VALUES
 -- Insert salary records
 INSERT INTO salaries (employee_id, salary, from_date, to_date)
 VALUES
-    (1, 60000.00, '2023-01-15', '2023-12-31'),
+    (1, 25000.00, '2023-07-01', '2023-12-31'),
     (2, 70000.00, '2022-11-30', '2023-12-31'),
     (3, 80000.00, '2023-03-20', '2023-12-31'),
     (4, 55000.00, '2021-08-10', '2022-08-09'),
