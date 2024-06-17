@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HR Management System - Register</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Register</h1>
+    <div class="form-container">
+        <form id="registerForm">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <select name="role" required>
+                <option value="HR">HR</option>
+                <option value="Employee">Employee</option>
+            </select>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <p>Already have an account? <a href="{{ url_for('login') }}">Login here</a>.</p>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
